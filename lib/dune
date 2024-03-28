@@ -1,2 +1,6 @@
 (library
- (name music))
+ (name music)
+ (libraries mm)
+ (foreign_stubs
+  (language c)
+  (names oss_stubs)))

@@ -1,4 +1,4 @@
 (executable
  (public_name music)
  (name main)
- (libraries music))
+ (libraries music mm))
